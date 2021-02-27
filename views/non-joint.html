@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Micro Bank</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles-agent.css">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>   
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand">Micro Bank</p>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- 6 -->
+        <li id="home"><a href="/agent">HOME</a></li>
+        <li id="about"><a href="/about">ABOUT US</a></li>
+        <li id="contact"><a href="/contact">CONTACT US</a></li>
+        <li id="home"><a href="/signin">LOGOUT</a></li>
+      </ul>
+    </div>
+  </nav>
+</head>    
+<body>
+    <div id="ac_type" class="container">Account type : Non-joint Account </div>
+<div class="container">
+<div id="non_joint" class="grid-container">
+  <div class="item1">User ID</div>
+  <div class="item2">User Name</div>
+  <div class="item3">Account Number</div>  
+  <div class="item4">Branch</div>
+  <div class="item5">Balance</div>
+    
+<!--values from account holders data-->
+  <div class="item2">....</div>
+  <div class="item3">....</div>  
+  <div class="item4">....</div>
+  <div class="item5">....</div>
+  <div class="item5">....</div>    
+
+</div>
+</div>
+
+<div id="dropdown_con" class="container">
+  <div class="row">
+      <div class="col-md-4"></div>    
+  <div class="col-md-8">
+  <div class="dropdown">
+     <label for="usr">Select Transaction type :</label>
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Type
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Deposit</a></li>
+      <li><a href="#">Withdraw</a></li>
+    </ul>
+   </div></div>
+  </div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div id="amount" class= "col-md-8">
+    <div class="form-group">
+    <label id="amount_lable" for="usr">Amount :</label>
+        <span><input type="text" class="form-control" id="usr" name="username"></span>
+    </div>
+    </div>  
+    </div>
+    <div id ="submit" class="row"><div class="col-md-10"></div>
+        <div class="col-md-2">
+            <button type="button" class="btn btn-primary">Submit</button>
+            
+        </div>
+</div>    
+<div class ="container-fluid">
+<div class="footer-padding"></div>
+<div class="footer">
+</div>
+</div>
+</div>
+</body>
+
+</html>
